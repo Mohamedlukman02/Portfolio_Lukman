@@ -746,14 +746,23 @@ const skillGroups = [
   {name:"core-concepts", items:["OOP","Data Structures & Algorithms","DBMS","Operating Systems"]},
 ];
 
-const projects = [
+
+  const projects = [
   {
     id:"missingperson",
     name:"AI Missing Person Identification",
     sub:"AI-Powered Web Application",
     desc:"An AI-powered web application that uses facial recognition to help identify missing persons by comparing uploaded images with stored records.",
     tech:["Java","Spring Boot","React.js","Python","OpenCV","FaceNet","MySQL"],
-    features:["Facial recognition with FaceNet","Image upload & comparison","Missing person registration","Secure user authentication","Confidence score matching","REST API integration","AI + Backend + Frontend combined"],
+    features:[
+      "Facial recognition with FaceNet",
+      "Image upload & comparison",
+      "Missing person registration",
+      "Secure user authentication",
+      "Confidence score matching",
+      "REST API integration",
+      "AI + Backend + Frontend combined"
+    ],
     github:"https://github.com/Mohamedlukman02",
     demo:null,
     overview:"An AI-powered web application designed to identify missing persons using facial recognition technology. Combines Java Spring Boot backend, React frontend, Python AI services, and MySQL database.",
@@ -762,13 +771,21 @@ const projects = [
     challenges:"Integrating Python AI modules (FaceNet, OpenCV) with a Java Spring Boot backend via REST APIs and structuring MySQL for fast image metadata retrieval.",
     learned:"Practical experience with AI integration, face recognition, multi-language full-stack architecture, and building production-ready REST APIs."
   },
+
   {
     id:"hotelfinder",
     name:"HotelFinder Pro",
     sub:"AI Agentic Workflow",
     desc:"An AI-powered hotel discovery and booking assistance application using an intelligent agent workflow.",
     tech:["Python","Streamlit","CrewAI","Browserbase","LLM","APIs"],
-    features:["AI-assisted hotel discovery","Intelligent agent workflow","Automated hotel search","Interactive Streamlit interface","Browser automation","LLM-driven results"],
+    features:[
+      "AI-assisted hotel discovery",
+      "Intelligent agent workflow",
+      "Automated hotel search",
+      "Interactive Streamlit interface",
+      "Browser automation",
+      "LLM-driven results"
+    ],
     github:"https://github.com/Mohamedlukman02",
     demo:null,
     overview:"An AI-powered hotel discovery and booking assistance application designed to help users search and explore hotel options through an intelligent multi-agent workflow.",
@@ -777,13 +794,21 @@ const projects = [
     challenges:"Coordinating multi-agent workflows reliably and structuring LLM output into a clean, usable UI.",
     learned:"Practical experience with agentic AI workflows, browser automation, and building interactive Python UIs."
   },
+
   {
     id:"billpay",
     name:"Bill Payment Management System",
     sub:"Full-Stack Web Application",
     desc:"A full-stack web application for managing bills, payments and transaction history.",
     tech:["HTML","CSS","JavaScript","Java","JDBC","MySQL"],
-    features:["User login & authentication","Bill management","Payment processing","Transaction history","Database integration","Responsive interface"],
+    features:[
+      "User login & authentication",
+      "Bill management",
+      "Payment processing",
+      "Transaction history",
+      "Database integration",
+      "Responsive interface"
+    ],
     github:"https://github.com/Mohamedlukman02",
     demo:null,
     overview:"A full-stack web application for managing bills, payments and transaction history — built during a Java Full Stack Developer internship at Retech Solutions.",
@@ -791,6 +816,29 @@ const projects = [
     solution:"A Java + JDBC + MySQL backend paired with a responsive frontend handles login, bill management, payments and transaction history in one place.",
     challenges:"Integrating the frontend and Java backend cleanly, and structuring MySQL tables for accurate transaction history.",
     learned:"End-to-end full-stack development — from UI to Java backend logic to database integration and debugging."
+  },
+
+  {
+    id:"studentcrud",
+    name:"Student CRUD Application",
+    sub:"Java Web Application",
+    desc:"A Java web application for managing student records using CRUD operations with MySQL database integration.",
+    tech:["Java","JSP","Servlets","JDBC","MySQL","Apache Tomcat","HTML","CSS"],
+    features:[
+      "Add new student records",
+      "View all student records",
+      "Update student details",
+      "Delete student records",
+      "MySQL database integration",
+      "JSP and Servlet-based web application"
+    ],
+    github:"https://github.com/Mohamedlukman02/StudentCRUD",
+    demo:null,
+    overview:"A Java web application designed to manage student records using Create, Read, Update and Delete (CRUD) operations.",
+    problem:"Managing student information manually can be time-consuming and difficult to maintain accurately.",
+    solution:"A web-based student management application that allows users to add, view, update and delete student records with data stored in a MySQL database.",
+    challenges:"Connecting JSP pages with Java Servlets, implementing JDBC database operations, and handling CRUD functionality reliably.",
+    learned:"Practical experience with Java Servlets, JSP, JDBC, MySQL database connectivity, CRUD operations and Apache Tomcat deployment."
   }
 ];
 
